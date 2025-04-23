@@ -1,0 +1,26 @@
+.goog-te-gadget {
+    color: transparent !important;
+  }
+  
+  .goog-te-gadget .goog-te-combo {
+    color: #333;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    width: 150px;
+  }
+  
+  .goog-te-gadget span {
+    display: none;
+  }
+  
+  .goog-te-combo:before {
+    content: '🌐 Language';
+    position: absolute;
+    color: #666;
+  }

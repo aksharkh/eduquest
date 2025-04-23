@@ -70,13 +70,13 @@ const Header = (props) => {
             <IconBellRinging size="21" stroke="1.5" />
           </Badge>
         </IconButton>
-        <Box flexGrow={1} />
-        <Stack spacing={1} direction="row" alignItems="center">
-          <Typography variant="contained" color="primary">
-            Hello, {_.startCase(userInfo.name)}
-          </Typography>
-          <Profile />
-        </Stack>
+        <Box sx={{ flexGrow: 1 , mr: 4}} />
+        <Box sx={{ display: 'flex', alignItems: 'center' ,mr: 20}}>
+    <Typography variant="contained" color="primary">
+      Hello, {_.startCase(userInfo.name)}
+    </Typography>
+    <Profile />
+  </Box>
       </ToolbarStyled>
     </AppBarStyled>
   );

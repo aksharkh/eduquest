@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+
 import {
   Box,
   Paper,
@@ -17,6 +18,8 @@ import { useGetExamsQuery } from 'src/slices/examApiSlice';
 import { useGetCheatingLogsQuery } from 'src/slices/cheatingLogApiSlice';
 
 export default function CheatingTable() {
+
+ 
   const [filter, setFilter] = useState('');
   const [selectedExamId, setSelectedExamId] = useState('');
   const [cheatingLogs, setCheatingLogs] = useState([]);
@@ -73,7 +76,7 @@ export default function CheatingTable() {
           <TableHead>
             <TableRow>
               <TableCell>Sno</TableCell>
-              <TableCell>Name</TableCell>
+              <TableCell>name</TableCell>
               <TableCell>Email</TableCell>
               <TableCell>No Face Count</TableCell>
               <TableCell>Multiple Face Count</TableCell>
