@@ -36,6 +36,9 @@ const Sidebar = (props) => {
           <Box
             sx={{
               height: '100%',
+              display: 'flex',
+    flexDirection: 'column',
+    mt: 4
             }}
           >
             {/* ------------------------------------------- */}
